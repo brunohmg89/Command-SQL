@@ -1,9 +1,9 @@
-# Primeiros estudos
+# Estudo de Comandos SQL
 
-## Primeiros Comandos
+## <https://github.com/fabianysousa>
 
 1. Subindo um container para testes  
-    - Cópia do repositório da <https://github.com/fabianysousa> nele consta diversos exemplos básicos de comandos SQL.
+    - Cópia do repositório nele consta diversos exemplos básicos de comandos SQL.
     - Subi um container com MySQL 8.0 para criação da database e teste dos comandos.
     - `docker pull mysql` para baixar a imagem do MySQL 
     - `docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql:tag` comando para subir o container com a imagem baixada anteriormente, nele consta o `name` do container a senha de root `-e MYSQL_ROOT_PASSWORD=my-secret-pw` e a versão do MySQL que você irá utilizar `mysql:tag`
@@ -90,4 +90,7 @@
             ROLLBACK;
             ```
 
-## Outros testes
+## <https://github.com/Daniel-Vinicius/COMANDOS-BASICOS-SQL/>
+
+3. Verificando comandos
+    - Arquivo com mais de 700 linhas de comandos explicados de SQL, estudando e aplicando alguns deles.
